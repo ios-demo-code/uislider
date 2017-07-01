@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-
+    // When you change the value of slider
     @IBAction func sliderValueChanged(_ sender: Any) {
         
         textLabel.text = "\(slider.value)"
